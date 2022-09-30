@@ -1,0 +1,7 @@
+test_helpers_benefits.page:
+  path: '/page'
+  defaults:
+    _title: 'Test Helpers Benefits page'
+    _controller: '\Drupal\test_helpers_benefits\Controller\TestHelpersBenefitsController::build'
+  requirements:
+    _permission: 'access content'
